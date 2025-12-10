@@ -1,0 +1,547 @@
+{
+  "backgrounds": [
+    {
+      "id": 1,
+      "src": "/images/background1.jpg",
+      "alt": "Fondo principal de la tienda",
+      "categoria": "backgrounds"
+    },
+    {
+      "id": 2,
+      "src": "/images/background2.jpg",
+      "alt": "Fondo decorativo 2",
+      "categoria": "backgrounds"
+    },
+    {
+      "id": 3,
+      "src": "/images/background3.jpg",
+      "alt": "Fondo decorativo 3",
+      "categoria": "backgrounds"
+    }
+  ],
+
+  "categorias": [
+    "zapatillas",
+    "chanclas",
+    "buggies",
+    "gorras",
+    "gafas",
+    "carteras"
+  ],
+
+  "zapatillas": [
+    {
+      "id": 4,
+      "src": "/images/zapatillas/4.png",
+      "nombre": "Zapatilla modelo 4",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 5,
+      "src": "/images/zapatillas/5.png",
+      "nombre": "Zapatilla modelo 5",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 6,
+      "src": "/images/zapatillas/6.png",
+      "nombre": "Zapatilla modelo 6",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 7,
+      "src": "/images/zapatillas/7.png",
+      "nombre": "Zapatilla modelo 7",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 8,
+      "src": "/images/zapatillas/8.png",
+      "nombre": "Zapatilla modelo 8",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 9,
+      "src": "/images/zapatillas/9.png",
+      "nombre": "Zapatilla modelo 9",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 10,
+      "src": "/images/zapatillas/10.png",
+      "nombre": "Zapatilla modelo 10",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 11,
+      "src": "/images/zapatillas/11.png",
+      "nombre": "Zapatilla modelo 11",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 12,
+      "src": "/images/zapatillas/12.png",
+      "nombre": "Zapatilla modelo 2",
+      "precio": "44.99",
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 13,
+      "src": "/images/zapatillas/13.png",
+      "nombre": "Zapatilla modelo 3",
+      "precio": "49.99",
+      "categoria": "zapatillas"
+    }
+  ],
+
+  "chanclas": [
+    {
+      "id": 1,
+      "src": "/images/esclavas/1.png",
+      "nombre": "Zapatilla modelo 4",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 2,
+      "src": "/images/esclavas/2.png",
+      "nombre": "Zapatilla modelo 5",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 3,
+      "src": "/images/esclavas/3.png",
+      "nombre": "Zapatilla modelo 6",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 4,
+      "src": "/images/esclavas/4.png",
+      "nombre": "Zapatilla modelo 7",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 5,
+      "src": "/images/esclavas/5.png",
+      "nombre": "Zapatilla modelo 8",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 6,
+      "src": "/images/esclavas/6.png",
+      "nombre": "Zapatilla modelo 9",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 7,
+      "src": "/images/esclavas/7.png",
+      "nombre": "Zapatilla modelo 10",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 8,
+      "src": "/images/esclavas/8.png",
+      "nombre": "Zapatilla modelo 11",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 9,
+      "src": "/images/esclavas/9.png",
+      "nombre": "Zapatilla modelo 11",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 10,
+      "src": "/images/esclavas/10.png",
+      "nombre": "Zapatilla modelo 11",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 11,
+      "src": "/images/esclavas/11.png",
+      "nombre": "Zapatilla modelo 11",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 12,
+      "src": "/images/esclavas/12.png",
+      "nombre": "Zapatilla modelo 2",
+      "precio": "44.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 13,
+      "src": "/images/esclavas/13.png",
+      "nombre": "Zapatilla modelo 3",
+      "precio": "49.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 14,
+      "src": "/images/esclavas/14.png",
+      "nombre": "Zapatilla modelo 3",
+      "precio": "49.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 15,
+      "src": "/images/esclavas/15.png",
+      "nombre": "Zapatilla modelo 3",
+      "precio": "49.99",
+      "categoria": "chanclas"
+    },
+    {
+      "id": 16,
+      "src": "/images/esclavas/16.png",
+      "nombre": "Zapatilla modelo 3",
+      "precio": "49.99",
+      "categoria": "chanclas"
+    }
+  ],
+
+  "buggies": [
+    {
+      "id": 1,
+      "src": "/images/buggies/1.png",
+      "nombre": "Buggie modelo 1",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 2,
+      "src": "/images/buggies/2.png",
+      "nombre": "Buggie modelo 2",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 3,
+      "src": "/images/buggies/3.png",
+      "nombre": "Buggie modelo 3",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 4,
+      "src": "/images/buggies/4.png",
+      "nombre": "Buggie modelo 4",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 5,
+      "src": "/images/buggies/5.png",
+      "nombre": "Buggie modelo 5",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 6,
+      "src": "/images/buggies/6.png",
+      "nombre": "Buggie modelo 6",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 7,
+      "src": "/images/buggies/7.png",
+      "nombre": "Buggie modelo 7",
+      "precio": "29.99",
+      "categoria": "buggies"
+    },
+    {
+      "id": 8,
+      "src": "/images/buggies/8.png",
+      "nombre": "Buggie modelo 8",
+      "precio": "29.99",
+      "categoria": "buggies"
+    }
+  ],
+
+  "gorras": [
+    {
+      "id": 1,
+      "src": "/images/gorras/1.png",
+      "nombre": "Gorra modelo 1",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 2,
+      "src": "/images/gorras/2.png",
+      "nombre": "Gorra modelo 2",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 3,
+      "src": "/images/gorras/3.png",
+      "nombre": "Gorra modelo 3",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 4,
+      "src": "/images/gorras/4.png",
+      "nombre": "Gorra modelo 4",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 5,
+      "src": "/images/gorras/5.png",
+      "nombre": "Gorra modelo 5",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 6,
+      "src": "/images/gorras/6.png",
+      "nombre": "Gorra modelo 6",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 7,
+      "src": "/images/gorras/7.png",
+      "nombre": "Gorra modelo 7",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 8,
+      "src": "/images/gorras/8.png",
+      "nombre": "Gorra modelo 8",
+      "precio": "19.99",
+      "categoria": "gorras"
+    },
+    {
+      "id": 9,
+      "src": "/images/gorras/9.png",
+      "nombre": "Gorra modelo 9",
+      "precio": "19.99",
+      "categoria": "gorras"
+    }
+  ],
+
+  "carteras": [
+    {
+      "id": 1,
+      "src": "/images/carteras/1.png",
+      "nombre": "Cartera modelo 1",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 2,
+      "src": "/images/carteras/2.png",
+      "nombre": "Cartera modelo 2",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 3,
+      "src": "/images/carteras/3.png",
+      "nombre": "Cartera modelo 3",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 4,
+      "src": "/images/carteras/4.png",
+      "nombre": "Cartera modelo 4",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 5,
+      "src": "/images/carteras/5.png",
+      "nombre": "Cartera modelo 5",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 6,
+      "src": "/images/carteras/6.png",
+      "nombre": "Cartera modelo 6",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 7,
+      "src": "/images/carteras/7.png",
+      "nombre": "Cartera modelo 7",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 8,
+      "src": "/images/carteras/8.png",
+      "nombre": "Cartera modelo 8",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 9,
+      "src": "/images/carteras/9.png",
+      "nombre": "Cartera modelo 9",
+      "precio": "24.99",
+      "categoria": "carteras"
+    },
+    {
+      "id": 10,
+      "src": "/images/carteras/10.png",
+      "nombre": "Cartera modelo 10",
+      "precio": "24.99",
+      "categoria": "carteras"
+    }
+  ],
+
+  "gafas": [
+    {
+      "id": 1,
+      "src": "/images/gafas/marca/1.png",
+      "nombre": "Gafas marca 1",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 2,
+      "src": "/images/gafas/marca/2.png",
+      "nombre": "Gafas marca 2",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 3,
+      "src": "/images/gafas/marca/3.png",
+      "nombre": "Gafas marca 3",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 4,
+      "src": "/images/gafas/marca/4.png",
+      "nombre": "Gafas marca 4",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 5,
+      "src": "/images/gafas/marca/5.png",
+      "nombre": "Gafas marca 5",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 6,
+      "src": "/images/gafas/marca/6.png",
+      "nombre": "Gafas marca 6",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 7,
+      "src": "/images/gafas/marca/7.png",
+      "nombre": "Gafas marca 7",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 8,
+      "src": "/images/gafas/marca/8.png",
+      "nombre": "Gafas marca 8",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 9,
+      "src": "/images/gafas/marca/9.png",
+      "nombre": "Gafas marca 9",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 10,
+      "src": "/images/gafas/marca/10.png",
+      "nombre": "Gafas marca 10",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 11,
+      "src": "/images/gafas/marca/11.png",
+      "nombre": "Gafas marca 11",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 12,
+      "src": "/images/gafas/marca/12.png",
+      "nombre": "Gafas marca 12",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 13,
+      "src": "/images/gafas/marca/13.png",
+      "nombre": "Gafas marca 13",
+      "precio": "29.90",
+      "categoria": "gafas"
+    },
+
+    {
+      "id": 14,
+      "src": "/images/gafas/sinmarca/1.png",
+      "nombre": "Gafas sin marca 1",
+      "precio": "14.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 15,
+      "src": "/images/gafas/sinmarca/2.png",
+      "nombre": "Gafas sin marca 2",
+      "precio": "14.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 16,
+      "src": "/images/gafas/sinmarca/3.png",
+      "nombre": "Gafas sin marca 3",
+      "precio": "14.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 17,
+      "src": "/images/gafas/sinmarca/4.png",
+      "nombre": "Gafas sin marca 4",
+      "precio": "14.90",
+      "categoria": "gafas"
+    },
+    {
+      "id": 18,
+      "src": "/images/gafas/sinmarca/5.png",
+      "nombre": "Gafas sin marca 5",
+      "precio": "14.90",
+      "categoria": "gafas"
+    }
+  ]
+}
