@@ -6,23 +6,35 @@ import { MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 export default function HomePage() {
   return (
     <main>
-
       {/* SECTION 1 */}
       <BackgroundSection src={data.backgrounds[2].src}>
-        <h1 className="text-4xl font-bold mb-4 text-[#DAEB2B] fade-up">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-[#DAEB2B] fade-up drop-shadow-lg">
           Ondina Surf & Skate Store
         </h1>
-        <p className="max-w-2xl mx-auto text-lg text-white fade-up delay-150">
-          Somos una tienda especializada en moda urbana, surf y skate. 
-          Productos exclusivos, rotación constante, estilo playero y deportivo.
-          Cada semana nuevas prendas para quienes buscan algo único.
-        </p>
-      </BackgroundSection>
 
+        <p className="max-w-xl mx-auto text-white text-lg md:text-xl fade-up delay-150 leading-relaxed">
+          Moda urbana, surf y skate. Estilo único, rotación constante y
+          productos exclusivos para quienes buscan algo diferente.
+        </p>
+
+        {/* ⭐ BOTÓN MEJORADO ⭐ */}
+        <a
+          href="/productos"
+          className="
+          mt-8 inline-block px-8 py-3 
+          text-lg font-bold rounded-xl
+          bg-[#3FA9F5] text-white shadow-xl
+          hover:bg-[#DAEB2B] hover:text-black
+          transition-all duration-300 fade-up delay-200
+          hover:scale-105
+          "
+        >
+          Ver nuestros productos
+        </a>
+      </BackgroundSection>
 
       {/* SECTION 2 – NUESTRAS TIENDAS */}
       <BackgroundSection src={data.backgrounds[1].src}>
-
         {/* LOGO */}
         <div className="flex justify-center mb-6 fade-up">
           <Image
@@ -40,7 +52,6 @@ export default function HomePage() {
 
         {/* GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-white text-lg max-w-3xl mx-auto fade-up delay-200">
-
           {/* 🟦 GÁLDAR */}
           <div className="flex flex-col gap-3 bg-black/40 p-4 rounded-xl shadow-lg">
             <h3 className="text-2xl font-semibold text-[#DAEB2B]">Gáldar</h3>
@@ -72,9 +83,7 @@ export default function HomePage() {
         <p className="text-center mt-8 text-[#DAEB2B] text-lg font-medium fade-up delay-300">
           ondina@ondinasurf.com
         </p>
-
       </BackgroundSection>
-
     </main>
   );
 }

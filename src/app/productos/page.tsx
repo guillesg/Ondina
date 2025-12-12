@@ -34,6 +34,19 @@ export default function ProductosPage() {
     return () => observer.disconnect();
   }, []);
 
+  // ❌ BLOQUEAR SCROLL CUANDO EL SIDEBAR ESTÁ ABIERTO EN MÓVIL
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden"; // Congela el scroll
+    } else {
+      document.body.style.overflow = ""; // Lo devuelve a normal
+    }
+
+    return () => {
+      document.body.style.overflow = ""; // Limpieza por seguridad
+    };
+  }, [open]);
+
   const handleSelect = (cat: string) => {
     setCategoriaActiva(cat);
     setOpen(false);
@@ -43,7 +56,6 @@ export default function ProductosPage() {
 
   return (
     <main className="min-h-screen relative overflow-x-hidden lg:pl-64 bg-gradient-to-b from-white to-[#F3FBFF] dark:from-neutral-900 dark:to-neutral-800">
-
       <Sidebar
         open={open}
         onClose={() => setOpen(false)}
@@ -60,7 +72,7 @@ export default function ProductosPage() {
         </h1>
 
         <p className="mt-2 text-gray-600 dark:text-gray-300 text-lg">
-          Explora nuestra selección especialmente para ti.
+          Mucho más en nuestras tiendas.
         </p>
 
         {/* Línea decorativa */}
@@ -69,7 +81,11 @@ export default function ProductosPage() {
 
       {/* GRID DE PRODUCTOS */}
       <div className="px-4 pb-10">
-        <ProductGrid productos={productos} onVer={setModalProducto} categoria={categoriaActiva} />
+        <ProductGrid
+          productos={productos}
+          onVer={setModalProducto}
+          categoria={categoriaActiva}
+        />
       </div>
 
       {/* SENTINEL PARA FLOATING */}
@@ -79,7 +95,6 @@ export default function ProductosPage() {
       {modalProducto && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4 animate-fadeIn">
           <div className="relative bg-white rounded-2xl max-w-md w-full p-4 shadow-2xl">
-
             {/* Botón cerrar */}
             <button
               className="absolute top-2 right-2 text-3xl text-black hover:text-[#3FA9F5] transition"

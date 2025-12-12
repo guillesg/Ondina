@@ -1,6 +1,19 @@
-import "./globals.css"; 
+import "./globals.css";
 import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
+import FooterWrapper from "@/components/FooterWrapper";
+import { Raleway, Poppins } from "next/font/google";
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleway",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["300", "400", "500", "600"],
+});
 
 export const metadata = {
   title: "Mi Web",
@@ -9,19 +22,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${raleway.variable} ${poppins.variable}`}>
       <body className="bg-white">
-        
-        {/* NAVBAR FIJO */}
         <NavBar />
-
-        {/* CONTENIDO — separado del navbar fijo // className="pt-[80px] max-w-7xl mx-auto px-4"> */}
-        <main>
-          {children}
-        </main>
-
-        {/* FOOTER */}
-        <Footer className="z-60" />
+        <main>{children}</main>
+        <FooterWrapper />
       </body>
     </html>
   );
