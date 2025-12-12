@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mi Web",
+  title: "Ondina",
   description: "Página del cliente",
 };
 

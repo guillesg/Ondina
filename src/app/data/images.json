@@ -2,7 +2,7 @@
   "backgrounds": [
     {
       "id": 1,
-      "src": "/images/background1.jpg",
+      "src": "/images/background4.jpg",
       "alt": "Fondo principal de la tienda",
       "categoria": "backgrounds"
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": 3,
-      "src": "/images/background3.jpg",
+      "src": "/images/background5.jpg",
       "alt": "Fondo decorativo 3",
       "categoria": "backgrounds"
     }
