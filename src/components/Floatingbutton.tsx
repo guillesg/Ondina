@@ -22,7 +22,7 @@ export default function FloatingButton({
         z-30
 
         transform transition-all duration-300
-        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6 pointer-events-none"}
+       
       `}
     >
       +

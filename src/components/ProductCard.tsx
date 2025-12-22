@@ -17,10 +17,30 @@ export default function ProductCard({
   categoria: string;
   onVer: (prod: any) => void;
 }) {
-  const categoriasReducidas = ["gafas", "gorras", "carteras"];
-  const escala = categoriasReducidas.includes(categoria)
-    ? "scale-120"
-    : "scale-210";
+  // Categorías que siempre van más pequeñas
+  const categoriasReducidas = ["gafas", "gorras", "carteras", "skates"];
+
+  // Escala base
+  let escalaBase = "scale-210";
+  let escalaHover = "group-hover:scale-[2.25]";
+
+  // Categorías reducidas
+  if (categoriasReducidas.includes(categoria)) {
+    escalaBase = "scale-120";
+    escalaHover = "group-hover:scale-[1.3]";
+  }
+
+  // 🟡 BUGGIES grandes (id >= 9)
+  if (categoria === "buggies" && producto.id >= 9) {
+    escalaBase = "scale-110";
+    escalaHover = "group-hover:scale-[1.2]";
+  }
+
+  // 🔵 ZAPATILLAS – imagen 1 demasiado grande
+  if (categoria === "zapatillas" && producto.id === 1) {
+    escalaBase = "scale-110";
+    escalaHover = "group-hover:scale-[1.2]";
+  }
 
   return (
     <article
@@ -40,8 +60,8 @@ export default function ProductCard({
           className={`
             object-scale-down
             p-5
-            ${escala}               /* ← escala automática según categoría */
-            group-hover:scale-125 
+            ${escalaBase}
+            ${escalaHover}
             transition-transform duration-300
           `}
         />
@@ -61,7 +81,7 @@ export default function ProductCard({
 
         <div className="mt-3 flex items-center justify-between">
           <span className="font-bold text-[#DAEB2B] text-lg">
-            €{producto.precio}
+            {producto.precio}
           </span>
 
           <button

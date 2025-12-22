@@ -26,78 +26,87 @@
     "buggies",
     "gorras",
     "gafas",
-    "carteras"
+    "carteras",
+    "mochilas",
+    "skates"
   ],
 
   "zapatillas": [
     {
+      "id": 1,
+      "src": "/images/zapatillas/1.png",
+      "nombre": "Adidas",
+      "precio": "80€",
+      "categoria": "zapatillas"
+    },
+    {
       "id": 4,
       "src": "/images/zapatillas/4.png",
-      "nombre": "Zapatilla modelo 4",
-      "precio": "44.99",
+      "nombre": "Chiruca",
+      "precio": "130€",
       "categoria": "zapatillas"
     },
     {
       "id": 5,
       "src": "/images/zapatillas/5.png",
-      "nombre": "Zapatilla modelo 5",
-      "precio": "44.99",
+      "nombre": "Vans",
+      "precio": "85€",
       "categoria": "zapatillas"
     },
     {
       "id": 6,
       "src": "/images/zapatillas/6.png",
-      "nombre": "Zapatilla modelo 6",
-      "precio": "44.99",
+      "nombre": "Vans",
+      "precio": "89.90€",
       "categoria": "zapatillas"
     },
     {
       "id": 7,
       "src": "/images/zapatillas/7.png",
-      "nombre": "Zapatilla modelo 7",
-      "precio": "44.99",
+      "nombre": "Vans",
+      "precio": "128€",
       "categoria": "zapatillas"
     },
     {
       "id": 8,
       "src": "/images/zapatillas/8.png",
-      "nombre": "Zapatilla modelo 8",
-      "precio": "44.99",
+      "nombre": "Vans",
+      "precio": "79€",
       "categoria": "zapatillas"
     },
     {
       "id": 9,
       "src": "/images/zapatillas/9.png",
-      "nombre": "Zapatilla modelo 9",
-      "precio": "44.99",
+      "nombre": "Vans",
+      "precio": "89€",
       "categoria": "zapatillas"
     },
     {
       "id": 10,
       "src": "/images/zapatillas/10.png",
-      "nombre": "Zapatilla modelo 10",
-      "precio": "44.99",
+      "nombre": "New Balance",
+      "precio": "120€",
       "categoria": "zapatillas"
     },
     {
       "id": 11,
       "src": "/images/zapatillas/11.png",
-      "nombre": "Zapatilla modelo 11",
-      "precio": "44.99",
+      "nombre": "New Balance",
+      "precio": "120€",
       "categoria": "zapatillas"
     },
     {
       "id": 12,
       "src": "/images/zapatillas/12.png",
-      "nombre": "Zapatilla modelo 2",
-      "precio": "44.99",
+      "nombre": "New Balance",
+      "precio": "120€",
       "categoria": "zapatillas"
     },
     {
       "id": 13,
       "src": "/images/zapatillas/13.png",
-      "nombre": "Zapatilla modelo 3",
-      "precio": "49.99",
+      "nombre": "New Balance",
+      "precio": "140€",
       "categoria": "zapatillas"
     }
   ],
@@ -106,113 +115,113 @@
     {
       "id": 1,
       "src": "/images/esclavas/1.png",
-      "nombre": "Zapatilla modelo 4",
-      "precio": "44.99",
+      "nombre": "Chiruca",
+      "precio": "58€",
       "categoria": "chanclas"
     },
     {
       "id": 2,
       "src": "/images/esclavas/2.png",
-      "nombre": "Zapatilla modelo 5",
-      "precio": "44.99",
+      "nombre": "Adidas",
+      "precio": "23€",
       "categoria": "chanclas"
     },
     {
       "id": 3,
       "src": "/images/esclavas/3.png",
-      "nombre": "Zapatilla modelo 6",
-      "precio": "44.99",
+      "nombre": "Rainbow",
+      "precio": "58€",
       "categoria": "chanclas"
     },
     {
       "id": 4,
       "src": "/images/esclavas/4.png",
-      "nombre": "Zapatilla modelo 7",
-      "precio": "44.99",
+      "nombre": "Ipanema",
+      "precio": "29.99€",
       "categoria": "chanclas"
     },
     {
       "id": 5,
       "src": "/images/esclavas/5.png",
-      "nombre": "Zapatilla modelo 8",
-      "precio": "44.99",
+      "nombre": "Ipanema",
+      "precio": "26.99€",
       "categoria": "chanclas"
     },
     {
       "id": 6,
       "src": "/images/esclavas/6.png",
-      "nombre": "Zapatilla modelo 9",
-      "precio": "44.99",
+      "nombre": "Ipanema",
+      "precio": "24.99€",
       "categoria": "chanclas"
     },
     {
       "id": 7,
       "src": "/images/esclavas/7.png",
-      "nombre": "Zapatilla modelo 10",
-      "precio": "44.99",
+      "nombre": "Ipanema",
+      "precio": "29.99€",
       "categoria": "chanclas"
     },
     {
       "id": 8,
       "src": "/images/esclavas/8.png",
-      "nombre": "Zapatilla modelo 11",
-      "precio": "44.99",
+      "nombre": "Quiksilver",
+      "precio": "20€",
       "categoria": "chanclas"
     },
     {
       "id": 9,
       "src": "/images/esclavas/9.png",
-      "nombre": "Zapatilla modelo 11",
-      "precio": "44.99",
+      "nombre": "Quiksilver",
+      "precio": "22€",
       "categoria": "chanclas"
     },
     {
       "id": 10,
       "src": "/images/esclavas/10.png",
-      "nombre": "Zapatilla modelo 11",
-      "precio": "44.99",
+      "nombre": "Reef",
+      "precio": "25€",
       "categoria": "chanclas"
     },
     {
       "id": 11,
       "src": "/images/esclavas/11.png",
-      "nombre": "Zapatilla modelo 11",
-      "precio": "44.99",
+      "nombre": "Reef",
+      "precio": "25€",
       "categoria": "chanclas"
     },
     {
       "id": 12,
       "src": "/images/esclavas/12.png",
-      "nombre": "Zapatilla modelo 2",
-      "precio": "44.99",
+      "nombre": "Reef",
+      "precio": "19.99€",
       "categoria": "chanclas"
     },
     {
       "id": 13,
       "src": "/images/esclavas/13.png",
-      "nombre": "Zapatilla modelo 3",
-      "precio": "49.99",
+      "nombre": "Cool Shoe",
+      "precio": "36€",
       "categoria": "chanclas"
     },
     {
       "id": 14,
       "src": "/images/esclavas/14.png",
-      "nombre": "Zapatilla modelo 3",
-      "precio": "49.99",
+      "nombre": "Cool Shoe",
+      "precio": "49.26€",
       "categoria": "chanclas"
     },
     {
       "id": 15,
       "src": "/images/esclavas/15.png",
-      "nombre": "Zapatilla modelo 3",
-      "precio": "49.99",
+      "nombre": "Roxy",
+      "precio": "45€",
       "categoria": "chanclas"
     },
     {
       "id": 16,
       "src": "/images/esclavas/16.png",
-      "nombre": "Zapatilla modelo 3",
-      "precio": "49.99",
+      "nombre": "Roxy",
+      "precio": "45€",
       "categoria": "chanclas"
     }
   ],
@@ -221,57 +230,113 @@
     {
       "id": 1,
       "src": "/images/buggies/1.png",
-      "nombre": "Buggie modelo 1",
-      "precio": "29.99",
+      "nombre": "Turbo",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 2,
       "src": "/images/buggies/2.png",
-      "nombre": "Buggie modelo 2",
-      "precio": "29.99",
+      "nombre": "Tamega",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 3,
       "src": "/images/buggies/3.png",
-      "nombre": "Buggie modelo 3",
-      "precio": "29.99",
+      "nombre": "Tamega",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 4,
       "src": "/images/buggies/4.png",
-      "nombre": "Buggie modelo 4",
-      "precio": "29.99",
+      "nombre": "Turbo",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 5,
       "src": "/images/buggies/5.png",
-      "nombre": "Buggie modelo 5",
-      "precio": "29.99",
+      "nombre": "Empire",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 6,
       "src": "/images/buggies/6.png",
-      "nombre": "Buggie modelo 6",
-      "precio": "29.99",
+      "nombre": "Empire",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 7,
       "src": "/images/buggies/7.png",
-      "nombre": "Buggie modelo 7",
-      "precio": "29.99",
+      "nombre": "Turbo",
+      "precio": "280€",
       "categoria": "buggies"
     },
     {
       "id": 8,
       "src": "/images/buggies/8.png",
-      "nombre": "Buggie modelo 8",
-      "precio": "29.99",
+      "nombre": "Turbo",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 9,
+      "src": "/images/buggies/9.png",
+      "nombre": "Pride",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 10,
+      "src": "/images/buggies/10.png",
+      "nombre": "Pride",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 11,
+      "src": "/images/buggies/11.png",
+      "nombre": "Sniper",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 12,
+      "src": "/images/buggies/12.jpg",
+      "nombre": "Pride",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 13,
+      "src": "/images/buggies/13.png",
+      "nombre": "Pride",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 14,
+      "src": "/images/buggies/14.png",
+      "nombre": "NMD",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 15,
+      "src": "/images/buggies/15.png",
+      "nombre": "Pride",
+      "precio": "280€",
+      "categoria": "buggies"
+    },
+    {
+      "id": 16,
+      "src": "/images/buggies/16.png",
+      "nombre": "Pride",
+      "precio": "280€",
       "categoria": "buggies"
     }
   ],
@@ -280,64 +345,64 @@
     {
       "id": 1,
       "src": "/images/gorras/1.png",
-      "nombre": "Gorra modelo 1",
-      "precio": "19.99",
+      "nombre": "Volcom",
+      "precio": "35€",
       "categoria": "gorras"
     },
     {
       "id": 2,
       "src": "/images/gorras/2.png",
-      "nombre": "Gorra modelo 2",
-      "precio": "19.99",
+      "nombre": "Salty Crew",
+      "precio": "32€",
       "categoria": "gorras"
     },
     {
       "id": 3,
       "src": "/images/gorras/3.png",
-      "nombre": "Gorra modelo 3",
-      "precio": "19.99",
+      "nombre": "Rvca",
+      "precio": "35€",
       "categoria": "gorras"
     },
     {
       "id": 4,
       "src": "/images/gorras/4.png",
-      "nombre": "Gorra modelo 4",
-      "precio": "19.99",
+      "nombre": "Billabong",
+      "precio": "25€",
       "categoria": "gorras"
     },
     {
       "id": 5,
       "src": "/images/gorras/5.png",
-      "nombre": "Gorra modelo 5",
-      "precio": "19.99",
+      "nombre": "Quiksilver",
+      "precio": "22€",
       "categoria": "gorras"
     },
     {
       "id": 6,
       "src": "/images/gorras/6.png",
-      "nombre": "Gorra modelo 6",
-      "precio": "19.99",
+      "nombre": "Vans",
+      "precio": "28€",
       "categoria": "gorras"
     },
     {
       "id": 7,
       "src": "/images/gorras/7.png",
-      "nombre": "Gorra modelo 7",
-      "precio": "19.99",
+      "nombre": "Volcom",
+      "precio": "30€",
       "categoria": "gorras"
     },
     {
       "id": 8,
       "src": "/images/gorras/8.png",
-      "nombre": "Gorra modelo 8",
-      "precio": "19.99",
+      "nombre": "Vans",
+      "precio": "25€",
       "categoria": "gorras"
     },
     {
       "id": 9,
       "src": "/images/gorras/9.png",
-      "nombre": "Gorra modelo 9",
-      "precio": "19.99",
+      "nombre": "Fox",
+      "precio": "35€",
       "categoria": "gorras"
     }
   ],
@@ -346,71 +411,64 @@
     {
       "id": 1,
       "src": "/images/carteras/1.png",
-      "nombre": "Cartera modelo 1",
-      "precio": "24.99",
+      "nombre": "Rip Curl",
+      "precio": "19€",
       "categoria": "carteras"
     },
     {
       "id": 2,
       "src": "/images/carteras/2.png",
-      "nombre": "Cartera modelo 2",
-      "precio": "24.99",
+      "nombre": "Billabong",
+      "precio": "19.95€",
       "categoria": "carteras"
     },
     {
       "id": 3,
       "src": "/images/carteras/3.png",
-      "nombre": "Cartera modelo 3",
-      "precio": "24.99",
+      "nombre": "Quiksilver",
+      "precio": "18€",
       "categoria": "carteras"
     },
     {
       "id": 4,
       "src": "/images/carteras/4.png",
-      "nombre": "Cartera modelo 4",
-      "precio": "24.99",
+      "nombre": "Billabong",
+      "precio": "19.95€",
       "categoria": "carteras"
     },
     {
       "id": 5,
       "src": "/images/carteras/5.png",
-      "nombre": "Cartera modelo 5",
-      "precio": "24.99",
+      "nombre": "Ocean Earth",
+      "precio": "69€",
       "categoria": "carteras"
     },
     {
       "id": 6,
       "src": "/images/carteras/6.png",
-      "nombre": "Cartera modelo 6",
-      "precio": "24.99",
-      "categoria": "carteras"
-    },
-    {
-      "id": 7,
-      "src": "/images/carteras/7.png",
-      "nombre": "Cartera modelo 7",
-      "precio": "24.99",
+      "nombre": "Pepe Jeans",
+      "precio": "44€",
       "categoria": "carteras"
     },
     {
       "id": 8,
       "src": "/images/carteras/8.png",
-      "nombre": "Cartera modelo 8",
-      "precio": "24.99",
+      "nombre": "Billabong",
+      "precio": "35€",
       "categoria": "carteras"
     },
     {
       "id": 9,
       "src": "/images/carteras/9.png",
-      "nombre": "Cartera modelo 9",
-      "precio": "24.99",
+      "nombre": "Fox",
+      "precio": "39€",
       "categoria": "carteras"
     },
     {
       "id": 10,
       "src": "/images/carteras/10.png",
-      "nombre": "Cartera modelo 10",
-      "precio": "24.99",
+      "nombre": "Rip Curl",
+      "precio": "38€",
       "categoria": "carteras"
     }
   ],
@@ -419,129 +477,229 @@
     {
       "id": 1,
       "src": "/images/gafas/marca/1.png",
-      "nombre": "Gafas marca 1",
-      "precio": "29.90",
+      "nombre": "Excape",
+      "precio": "25€",
       "categoria": "gafas"
     },
     {
       "id": 2,
       "src": "/images/gafas/marca/2.png",
-      "nombre": "Gafas marca 2",
-      "precio": "29.90",
+      "nombre": "Excape",
+      "precio": "25€",
       "categoria": "gafas"
     },
     {
       "id": 3,
       "src": "/images/gafas/marca/3.png",
-      "nombre": "Gafas marca 3",
-      "precio": "29.90",
+      "nombre": "Excape",
+      "precio": "25€",
       "categoria": "gafas"
     },
     {
       "id": 4,
       "src": "/images/gafas/marca/4.png",
-      "nombre": "Gafas marca 4",
-      "precio": "29.90",
+      "nombre": "Excape",
+      "precio": "25€",
       "categoria": "gafas"
     },
     {
       "id": 5,
       "src": "/images/gafas/marca/5.png",
-      "nombre": "Gafas marca 5",
-      "precio": "29.90",
+      "nombre": "Vans",
+      "precio": "22€",
       "categoria": "gafas"
     },
     {
       "id": 6,
       "src": "/images/gafas/marca/6.png",
-      "nombre": "Gafas marca 6",
-      "precio": "29.90",
+      "nombre": "Blast",
+      "precio": "34.90€",
       "categoria": "gafas"
     },
     {
       "id": 7,
       "src": "/images/gafas/marca/7.png",
-      "nombre": "Gafas marca 7",
-      "precio": "29.90",
+      "nombre": "Ironman",
+      "precio": "59€",
       "categoria": "gafas"
     },
     {
       "id": 8,
       "src": "/images/gafas/marca/8.png",
-      "nombre": "Gafas marca 8",
-      "precio": "29.90",
+      "nombre": "Blast",
+      "precio": "34.90€",
       "categoria": "gafas"
     },
     {
       "id": 9,
       "src": "/images/gafas/marca/9.png",
-      "nombre": "Gafas marca 9",
-      "precio": "29.90",
+      "nombre": "Blast",
+      "precio": "34.90€",
       "categoria": "gafas"
     },
     {
       "id": 10,
       "src": "/images/gafas/marca/10.png",
-      "nombre": "Gafas marca 10",
-      "precio": "29.90",
+      "nombre": "Vans",
+      "precio": "18€",
       "categoria": "gafas"
     },
     {
       "id": 11,
       "src": "/images/gafas/marca/11.png",
-      "nombre": "Gafas marca 11",
-      "precio": "29.90",
+      "nombre": "Vans",
+      "precio": "28€",
       "categoria": "gafas"
     },
     {
       "id": 12,
       "src": "/images/gafas/marca/12.png",
-      "nombre": "Gafas marca 12",
-      "precio": "29.90",
+      "nombre": "Vans",
+      "precio": "18€",
       "categoria": "gafas"
     },
     {
       "id": 13,
       "src": "/images/gafas/marca/13.png",
-      "nombre": "Gafas marca 13",
-      "precio": "29.90",
+      "nombre": "Vans",
+      "precio": "22€",
       "categoria": "gafas"
     },
 
     {
       "id": 14,
       "src": "/images/gafas/sinmarca/1.png",
-      "nombre": "Gafas sin marca 1",
-      "precio": "14.90",
+      "nombre": "RPN Polarized",
+      "precio": "18.00",
       "categoria": "gafas"
     },
     {
       "id": 15,
       "src": "/images/gafas/sinmarca/2.png",
-      "nombre": "Gafas sin marca 2",
-      "precio": "14.90",
+      "nombre": "RPN Polarized",
+      "precio": "18.00",
       "categoria": "gafas"
     },
     {
       "id": 16,
       "src": "/images/gafas/sinmarca/3.png",
-      "nombre": "Gafas sin marca 3",
-      "precio": "14.90",
+      "nombre": "RPN Polarized",
+      "precio": "18.00",
       "categoria": "gafas"
     },
     {
       "id": 17,
       "src": "/images/gafas/sinmarca/4.png",
-      "nombre": "Gafas sin marca 4",
-      "precio": "14.90",
+      "nombre": "RPN Polarized",
+      "precio": "18.00",
       "categoria": "gafas"
     },
     {
       "id": 18,
       "src": "/images/gafas/sinmarca/5.png",
-      "nombre": "Gafas sin marca 5",
-      "precio": "14.90",
+      "nombre": "RPN Polarized",
+      "precio": "18.00",
       "categoria": "gafas"
+    }
+  ],
+  "skates": [
+    {
+      "id": 1,
+      "src": "/images/skates/1.png",
+      "nombre": "Rob Roskopp",
+      "precio": "119.90€"
+    },
+    {
+      "id": 2,
+      "src": "/images/skates/2.png",
+      "nombre": "Santa Cruz",
+      "precio": "119.90€"
+    },
+    {
+      "id": 3,
+      "src": "/images/skates/3.png",
+      "nombre": "Santa Cruz",
+      "precio": "94.99"
+    },
+    {
+      "id": 4,
+      "src": "/images/skates/4.png",
+      "nombre": "Power Peralta",
+      "precio": "160€"
+    },
+    {
+      "id": 5,
+      "src": "/images/skates/5.png",
+      "nombre": "Power Peralta",
+      "precio": "150€"
+    },
+    {
+      "id": 6,
+      "src": "/images/skates/6.png",
+      "nombre": "Power Peralta",
+      "precio": "160€"
+    },
+    {
+      "id": 7,
+      "src": "/images/skates/7.png",
+      "nombre": "Power Peralta",
+      "precio": "160€"
+    }
+  ],
+  "mochilas": [
+    {
+      "id": 1,
+      "src": "/images/mochilas/1.png",
+      "nombre": "Vans",
+      "precio": "45€"
+    },
+    {
+      "id": 2,
+      "src": "/images/mochilas/2.png",
+      "nombre": "Vans",
+      "precio": "43€"
+    },
+    {
+      "id": 3,
+      "src": "/images/mochilas/3.png",
+      "nombre": "Vans",
+      "precio": "45€"
+    },
+    {
+      "id": 4,
+      "src": "/images/mochilas/4.png",
+      "nombre": "Fox",
+      "precio": "58€"
+    },
+    {
+      "id": 5,
+      "src": "/images/mochilas/5.png",
+      "nombre": "Fox",
+      "precio": "48€"
+    },
+    {
+      "id": 6,
+      "src": "/images/mochilas/6.png",
+      "nombre": "Roxy",
+      "precio": "55€"
+    },
+    {
+      "id": 7,
+      "src": "/images/mochilas/7.png",
+      "nombre": "Roxy",
+      "precio": "45€"
+    },
+    {
+      "id": 8,
+      "src": "/images/mochilas/8.png",
+      "nombre": "Roxy",
+      "precio": "65€"
+    },
+    {
+      "id": 9,
+      "src": "/images/mochilas/9.png",
+      "nombre": "Roxy",
+      "precio": "65€"
     }
   ]
 }
