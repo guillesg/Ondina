@@ -1,12 +1,20 @@
 "use client";
+
 import { X } from "lucide-react";
+
+type SidebarProps = {
+  open: boolean;
+  onClose: () => void;
+  onSelectCategory: (categoria: string) => void;
+  categorias?: string[];
+};
 
 export default function Sidebar({
   open,
   onClose,
   onSelectCategory,
-  categorias
-}) {
+  categorias,
+}: SidebarProps) {
   return (
     <div
       className={`
@@ -28,6 +36,7 @@ export default function Sidebar({
       <button
         onClick={onClose}
         className="absolute top-6 right-6 text-[#FFD642] text-3xl lg:hidden"
+        aria-label="Cerrar menú"
       >
         <X />
       </button>

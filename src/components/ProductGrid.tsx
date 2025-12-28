@@ -2,7 +2,25 @@
 
 import ProductCard from "./ProductCard";
 
-export default function ProductGrid({ productos, onVer, categoria }) {
+type Producto = {
+  id: number;
+  src: string;
+  nombre: string;
+  precio: string;
+  descripcion?: string;
+};
+
+type ProductGridProps = {
+  productos: Producto[];
+  onVer: (producto: Producto) => void;
+  categoria?: string;
+};
+
+export default function ProductGrid({
+  productos,
+  onVer,
+  categoria,
+}: ProductGridProps) {
   if (!productos || productos.length === 0) {
     return (
       <div className="p-6 text-center text-gray-500">
@@ -13,8 +31,6 @@ export default function ProductGrid({ productos, onVer, categoria }) {
 
   return (
     <section className="relative p-6">
-
-      {/* GRID — Ocupa toda la pantalla cuando el sidebar desaparece */}
       <div
         className="
           grid 
@@ -29,7 +45,7 @@ export default function ProductGrid({ productos, onVer, categoria }) {
           <ProductCard
             key={p.id}
             producto={p}
-            categoria={categoria}
+            categoria={categoria ?? ""}
             onVer={onVer}
           />
         ))}
