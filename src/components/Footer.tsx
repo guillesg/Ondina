@@ -8,7 +8,7 @@ export default function Footer() {
         relative
         w-full bg-[#3FA9F5] text-[#DAEB2B] py-10 shadow-inner
         text-sm md:text-base
-        z-[9999]      /* 👈 AQUI EL CAMBIO GORDO */
+        z-[9999]
       "
     >
       <div
@@ -89,14 +89,6 @@ export default function Footer() {
               </a>
             </li>
 
-            <li>
-              <a
-                href="mailto:ondina@example.com"
-                className="flex items-center gap-3 hover:scale-105 transition-transform"
-              >
-                <MdEmail size={20} className="text-red-300" /> Email
-              </a>
-            </li>
           </ul>
         </div>
       </div>

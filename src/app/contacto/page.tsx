@@ -38,8 +38,8 @@ export default function ContactPage() {
           <FaInstagram className="text-3xl" />
           Instagram
         </a>
-
       </div>
+      <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Nuestro email: ondina@ondinasurf.com</p>
 
       {/* SECCIÓN TIENDAS */}
       <h2 className="text-3xl font-extrabold text-center mb-3 text-[#3FA9F5] tracking-wide">
