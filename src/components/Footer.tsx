@@ -102,6 +102,18 @@ export default function Footer() {
       >
         © {new Date().getFullYear()} Ondina. Todos los derechos reservados.
       </div>
+      <div className="text-center mt-5 text-[#DAEB2B]/60 ">
+        <small>
+          <span>Desarrollado por </span>
+          <a
+            href="https://guillermo-sosa.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Guillermo Sosa
+          </a>
+        </small>
+      </div>
     </footer>
   );
 }
